@@ -1,9 +1,10 @@
 """
-<plugin key="TCW180BSNMP" name="Teracom TCW180B (SNMP)" version="1.0.0" author="mboisnard">
+<plugin key="TCW181BSNMP" name="Teracom TCW181B-CM (SNMP)" version="1.0.0" author="mboisnard">
     <params>
         <param field="Address" label="Server IP" width="200px" required="true"/>
         <param field="Port" label="Server Port" width="200px" required="true"/>
-        <param field="Password" label="SNMP Community" width="200px" required="true" password="true"/>
+        <param field="Mode1" label="SNMP Public Community" width="200px" required="true" password="true"/>
+        <param field="Mode2" label="SNMP Private Community" width="200px" required="true" password="true"/>
     </params>
 </plugin>
 """
